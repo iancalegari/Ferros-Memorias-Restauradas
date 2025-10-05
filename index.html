@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="icon" type="favicon-32x32" sizes="32x32" href="/favicon-32x32.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ferros - Fotos antigas restauradas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Título -->
+        <h1>Ferros - Memórias Restauradas</h1>
+        <p><strong>Uma coleção de fotos antigas de Ferros restauradas com IA.</strong> <br> <br> Devido à antiguidade e qualidade das imagens, podem ocorrer erros. <br> Elas passaram por um processo de restauração com a IA Gemini. <br> Por isso, algumas representações podem não ser precisas, incluindo rostos e corpos <br>com possíveis modificações nos detalhes. <br> <br> <strong>Clique nas fotos para ver o comparativo. Caso não carreguem, feche e abra novamente.</strong> </p>
+
+        <!-- FOTOS -->
+        <div class="grid-container">
+            <div class="foto-item" onclick="abrirModal('1')">
+                <img src="Fotos/1_antiga.jpg" alt="Foto Antiga 1">
+            </div>
+            <div class="foto-item" onclick="abrirModal('2')">
+                <img src="Fotos/2_antiga.jpg" alt="Foto Antiga 2">
+            </div>
+            <div class="foto-item" onclick="abrirModal('3')">
+                <img src="Fotos/3_antiga.jpg" alt="Foto Antiga 3">
+            </div>
+            <div class="foto-item" onclick="abrirModal('4')">
+                <img src="Fotos/4_antiga.jpg" alt="Foto Antiga 4">
+            </div>
+            <div class="foto-item" onclick="abrirModal('5')">
+                <img src="Fotos/5_antiga.jpg" alt="Foto Antiga 5">
+            </div>
+            <div class="foto-item" onclick="abrirModal('6')">
+                <img src="Fotos/6_antiga.png" alt="Foto Antiga 6">
+            </div>
+            <div class="foto-item" onclick="abrirModal('7')">
+                <img src="Fotos/7_antiga.jpg" alt="Foto Antiga 7">
+            </div>
+            <div class="foto-item" onclick="abrirModal('9')">
+                <img src="Fotos/9_antiga.jpg" alt="Foto Antiga 9">
+            </div>
+            <div class="foto-item" onclick="abrirModal('10')">
+                <img src="Fotos/10_antiga.jpg" alt="Foto Antiga 10">
+            </div>
+            <div class="foto-item" onclick="abrirModal('11')">
+                <img src="Fotos/11_antiga.jpg" alt="Foto Antiga 11">
+            </div>
+            <div class="foto-item" onclick="abrirModal('12')">
+                <img src="Fotos/12_antiga.jpg" alt="Foto Antiga 12">
+            </div>
+            <div class="foto-item" onclick="abrirModal('13')">
+                <img src="Fotos/13_antiga.jpg" alt="Foto Antiga 13">
+            </div>
+            <div class="foto-item" onclick="abrirModal('14')">
+                <img src="Fotos/14_antiga.jpg" alt="Foto Antiga 14">
+            </div>
+            <div class="foto-item" onclick="abrirModal('15')">
+                <img src="Fotos/15_antiga.jpg" alt="Foto Antiga 15">
+            </div>
+            <div class="foto-item" onclick="abrirModal('16')">
+                <img src="Fotos/16_antiga.jpg" alt="Foto Antiga 16">
+            </div>
+            <div class="foto-item" onclick="abrirModal('18')">
+                <img src="Fotos/18_antiga.jpg" alt="Foto Antiga 18">
+            </div>
+            <div class="foto-item" onclick="abrirModal('19')">
+                <img src="Fotos/19_antiga.jpg" alt="Foto Antiga 19">
+            </div>
+            <div class="foto-item" onclick="abrirModal('20')">
+                <img src="Fotos/20_antiga.jpg" alt="Foto Antiga 20">
+            </div>
+            <div class="foto-item" onclick="abrirModal('21')">
+                <img src="Fotos/21_antiga.png" alt="Foto Antiga 21">
+            </div>
+            <div class="foto-item" onclick="abrirModal('22')">
+                <img src="Fotos/22_antiga.png" alt="Foto Antiga 22">
+            </div>
+            <div class="foto-item" onclick="abrirModal('23')">
+                <img src="Fotos/23_antiga.jpg" alt="Foto Antiga 23">
+            </div>
+            <div class="foto-item" onclick="abrirModal('24')">
+                <img src="Fotos/24_antiga.png" alt="Foto Antiga 24">
+            </div>
+        </div>
+
+        <!-- MODAL -->
+        <div id="modal" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar" onclick="fecharModal()">&times;</span>
+                <iframe frameborder="0" class="jux" width="100%" height="798.34"></iframe>
+            </div>
+        </div>
+    <footer class="rodape">
+        <p><strong>Desenvolvido por:</strong> Ian Calegari <br> 
+        <a href="https://www.linkedin.com/in/ian-calegari" target="_blank"> Linkedin </a> | 
+        <a href="https://github.com/iancalegari" target="_blank">GitHub</a> | 
+        <a href="https://www.instagram.com/iancalegari/" target="_blank">Instagram</a></p>
+    </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
