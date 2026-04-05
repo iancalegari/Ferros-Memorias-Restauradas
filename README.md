@@ -12,3 +12,6 @@ Aviso importante: Devido à natureza das imagens antigas, podem ocorrer erros du
 
 ## Aviso Sobre a Restauração
 As imagens passaram por um processo de restauração automática com a IA Gemini. No entanto, devido à antiguidade das fotos, podem ocorrer erros de precisão, especialmente em relação a rostos, corpos e elementos contextuais. Isso ocorre devido às limitações da IA e à qualidade original das imagens.
+
+## ACESSE:
+https://app.netlify.com/teams/ianlcc/projects
